@@ -2,6 +2,6 @@
     <string name="app_name">Mushroom</string>
     <string name="title_activity_main">MainActivity</string>
 
-    <string name="hello_world">Kijk poes!</string>
+    <string name="hello_world">Kijk kat!</string>
     <string name="action_settings">Settings</string>
 </resources>
