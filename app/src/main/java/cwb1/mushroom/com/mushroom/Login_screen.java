@@ -6,26 +6,32 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
+
 
 public class Login_screen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_login_screen);
 
         Button loginbutton = (Button)findViewById(R.id.button);
+
 
         loginbutton.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
                         Intent i = new Intent(getApplicationContext(), Homescreen.class);
                         startActivity(i);
-
                     }
                 }
         );
+
     }
 
     @Override
