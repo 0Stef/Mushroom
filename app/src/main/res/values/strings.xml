@@ -19,6 +19,8 @@
     <string name="challenge2">Challenge 2</string>
     <string name="challenge3">Challenge 3</string>
     <string name="getstartedch1">Get started</string>
+    <string name="title_activity_main_dbactivity">MainDBactivity</string>
+    <string name="title_activity_data_base_handler">DataBaseHandler</string>
 
     <string name="hello_world">Hello world!</string>
 
