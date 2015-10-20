@@ -1,9 +1,11 @@
 package cwb1.mushroom.com.mushroom;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Challenges extends AppCompatActivity {
 
@@ -33,5 +35,10 @@ public class Challenges extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void start(View view){
+        Intent intent = new Intent(this, recordAcceleration.class);
+        startActivity(intent);
     }
 }

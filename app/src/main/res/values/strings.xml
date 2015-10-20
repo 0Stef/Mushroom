@@ -23,5 +23,8 @@
     <string name="title_activity_data_base_handler">DataBaseHandler</string>
 
     <string name="hello_world">Hello world!</string>
-
+    <string name="title_activity_record_acceleration">recordAcceleration</string>
+    <string name="button_stop">Stop</string>
+    <string name="Versnelling">Versnelling: </string>
+    <string name="button_start">Start</string>
 </resources>

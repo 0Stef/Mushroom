@@ -33,6 +33,15 @@
             android:name=".DataBaseHandler"
             android:label="@string/title_activity_data_base_handler" >
         </activity>
+        <activity
+            android:name=".recordAcceleration"
+            android:label="@string/title_activity_record_acceleration"
+            android:parentActivityName=".Challenges"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cwb1.mushroom.com.mushroom.Challenges" />
+        </activity>
     </application>
 
 </manifest>
