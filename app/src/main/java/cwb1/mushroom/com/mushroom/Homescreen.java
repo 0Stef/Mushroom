@@ -39,6 +39,17 @@ public class Homescreen extends AppCompatActivity {
                 }
         );
 
+        Button mpButton = (Button)findViewById(R.id.button4);
+        mpButton.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent i = new Intent(getApplicationContext(), MapsActivity.class);
+                        startActivity(i);
+
+                    }
+                }
+        );
+
 
     }
 
