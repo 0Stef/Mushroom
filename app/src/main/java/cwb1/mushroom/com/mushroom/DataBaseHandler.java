@@ -14,6 +14,7 @@ import java.util.ArrayList;
  * @author Pieter-Jan
  * @version 1.0
  */
+
 public class DataBaseHandler extends SQLiteOpenHelper {
 
     // Algemene gegevens

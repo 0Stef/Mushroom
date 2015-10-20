@@ -49,4 +49,16 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/button3"
         android:layout_alignEnd="@+id/button3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATABASE"
+        android:id="@+id/database"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
 </RelativeLayout>

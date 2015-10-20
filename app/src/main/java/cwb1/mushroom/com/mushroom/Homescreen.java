@@ -26,6 +26,20 @@ public class Homescreen extends AppCompatActivity {
                     }
                 }
         );
+
+        Button dbButton = (Button)findViewById(R.id.database);
+
+        dbButton.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent i = new Intent(getApplicationContext(), MainDBactivity.class);
+                        startActivity(i);
+
+                    }
+                }
+        );
+
+
     }
 
 

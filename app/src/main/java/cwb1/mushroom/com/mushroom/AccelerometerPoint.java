@@ -14,4 +14,3 @@ public class AccelerometerPoint extends VectorSensorPoint {
         super(xValue, yValue, zValue, millisec);
     }
 }
-
