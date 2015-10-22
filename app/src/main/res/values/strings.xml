@@ -16,9 +16,11 @@
     <string name="title_activity_challenges">Challenges</string>
     <string name="challengestitle">Challenges</string>
     <string name="gethighestacceleration">Get highest acceleration</string>
-    <string name="challenge2">Challenge 2</string>
-    <string name="challenge3">Challenge 3</string>
-    <string name="getstartedch1">Get started</string>
+    <string name="challenge2">Get average speed over 20 km/h</string>
+    <string name="challenge3">Drive only north for 1 km</string>
+    <string name="getstartedch1">Start challenge</string>
+    <string name="getstartedch2">Start challenge</string>
+    <string name="getstartedch3">Start challenge</string>
     <string name="title_activity_main_dbactivity">MainDBactivity</string>
     <string name="title_activity_data_base_handler">DataBaseHandler</string>
 
@@ -26,6 +28,9 @@
     <string name="title_activity_record_acceleration">recordAcceleration</string>
     <string name="button_stop">Stop</string>
     <string name="Versnelling">Versnelling: </string>
+    <string name="acceleration_result_text"></string>
     <string name="button_start">Start</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_record_speed">RecordSpeed</string>
+    <string name="title_activity_record_magnetic_field">RecordMagneticField</string>
 </resources>

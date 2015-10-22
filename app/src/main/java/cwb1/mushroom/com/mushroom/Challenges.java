@@ -37,8 +37,22 @@ public class Challenges extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void start(View view){
+    public void button5(View view) {
         Intent intent = new Intent(this, recordAcceleration.class);
         startActivity(intent);
+
     }
+
+    public void button6(View view) {
+        Intent intent2 = new Intent(this, RecordSpeed.class);
+        startActivity(intent2);
+
+    }
+
+    public void button7(View view) {
+        Intent intent3 = new Intent(this, RecordMagneticField.class);
+        startActivity(intent3);
+    }
+
+
 }

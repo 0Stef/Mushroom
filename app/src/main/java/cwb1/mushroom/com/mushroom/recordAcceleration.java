@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 public class recordAcceleration extends AppCompatActivity implements SensorEventListener {
     TextView acceleration;
+    TextView result_acceleration;
     private SensorManager mSensorManager;
     private Sensor mAcceleration;
 
@@ -76,6 +77,8 @@ public class recordAcceleration extends AppCompatActivity implements SensorEvent
 
     public void clickStop(View view){
         mSensorManager.unregisterListener(this);
+        result_acceleration = (TextView) findViewById(R.id.acceleration_result_text);
+        result_acceleration.setText("Your highest acceleration is");
     }
 
     @Override

@@ -68,6 +68,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="cwb1.mushroom.com.mushroom.Homescreen" />
         </activity>
+        <activity
+            android:name=".RecordSpeed"
+            android:label="@string/title_activity_record_speed" >
+        </activity>
+        <activity
+            android:name=".RecordMagneticField"
+            android:label="@string/title_activity_record_magnetic_field" >
+        </activity>
     </application>
 
 </manifest>
