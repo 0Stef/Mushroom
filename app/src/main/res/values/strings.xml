@@ -33,4 +33,8 @@
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_record_speed">RecordSpeed</string>
     <string name="title_activity_record_magnetic_field">RecordMagneticField</string>
+    <string name="title_activity_data_base_handler2">DataBaseHandler2</string>
+    <string name="title_activity_main_dbacitivty2">MainDBacitivty2</string>
+    <string name="title_activity_main_dbactivity2">MainDBactivity2</string>
+
 </resources>
