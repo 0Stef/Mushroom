@@ -2,12 +2,8 @@ package cwb1.mushroom.com.mushroom;
 
 import android.content.ContentValues;
 import android.content.Context;
-import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.graphics.Point;
-
-import java.util.ArrayList;
 
 public class DataBaseHandler2 extends SQLiteOpenHelper {
 
@@ -105,26 +101,26 @@ public class DataBaseHandler2 extends SQLiteOpenHelper {
         db2.insert("TABLE", null, values);
     }
 
-    public ArrayList<AccelerometerPoint> getPoint(Cursor cursor) {
-        ArrayList<AccelerometerPoint> list = new ArrayList<AccelerometerPoint>();
-
-        if (cursor.moveToFirst()) {
-            do {
-                Point point = new Point();
-
-                point.set_id(cursor.getInt(cursor.getColumnIndex(COLUMN_ID)));
-                point.setMillis(cursor.getLong(cursor.getColumnIndex(COLUMN_MILLISEC)));
-
-                point.setxValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_XVALUE)));
-                point.setyValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_YVALUE)));
-                point.setzValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_ZVALUE)));
-
-                list.add(point);
-            } while (cursor.moveToNext());
-        }
-
-        return list;
-    }
+//    public ArrayList<AccelerometerPoint> getPoint(Cursor cursor) {
+//        ArrayList<AccelerometerPoint> list = new ArrayList<AccelerometerPoint>();
+//
+//        if (cursor.moveToFirst()) {
+//            do {
+//                Point point = new Point();
+//
+//                point.set_id(cursor.getInt(cursor.getColumnIndex(COLUMN_ID)));
+//                point.setMillis(cursor.getLong(cursor.getColumnIndex(COLUMN_MILLISEC)));
+//
+//                point.setxValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_XVALUE)));
+//                point.setyValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_YVALUE)));
+//                point.setzValue(cursor.getFloat(cursor.getColumnIndex(COLUMN_ZVALUE)));
+//
+//                list.add(point);
+//            } while (cursor.moveToNext());
+//        }
+//
+//        return list;
+//    }
 
 }
 
